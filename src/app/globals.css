@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: white;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header .logo {
+    margin-bottom: 10px;
+  }
+  .header .nav {
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+  }
+  .hero {
+    height: 70vh;
+    padding: 10px;
+  }
+  .home h1 {
+    font-size: 36px;
+  }
+  .home p {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+    width: 300px;
+    line-height: 1.5px;
+    margin-left: 10px;
+    margin: 20px;
+  }
+  .home button {
+    width: 60%;
+    padding: 12px;
+    font-size: 16px;
+    
+  }
+  .about {
+    padding: 40px 20px;
+    height: auto;
+  }
+  .about-content {
+    width: 100%;
+    padding: 20px;
+  }
+  .contact-form {
+    margin: 30px;
+    padding: 30px;
+    width: 70%;
+  }
+  .contact-form button{
+    width:60% ;
+  }
+  #footer-container{
+    background-color: black;
+    flex-direction: column;
+  }
+  #footer-content div {
+    flex-direction: column;
+    width: 30%;
+    color: white;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}

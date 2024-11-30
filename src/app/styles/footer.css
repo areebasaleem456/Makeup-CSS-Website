@@ -1,0 +1,13 @@
+#footer-container{
+    background-color: black;
+    color: white;
+}
+
+#footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#footer-content li{
+    list-style:none;
+}

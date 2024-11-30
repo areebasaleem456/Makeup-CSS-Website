@@ -1,0 +1,25 @@
+.header{
+    background-color: brown;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+.header.logo{
+    margin-left: 0px;
+}
+.header nav{
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+}
+.header nav a{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header nav a:hover{
+    text-decoration: underline;
+}

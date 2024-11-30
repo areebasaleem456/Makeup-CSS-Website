@@ -1,0 +1,74 @@
+.container{
+    margin: 10px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+.container h1{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.cosmetic{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 40px;
+    margin: 40px;
+}
+
+.makeup-card{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.makeup-card img{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.makeup-card h3{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 5px; 
+}
+.makeup-card p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+}
+.makeup-card div{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.makeup-card button{
+    padding: 15px 35px;
+    background-color: brown;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.makeup-card button:hover{
+    background-color: crimson;
+}
+.makeup-card img{
+    width: 100;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.makeup-card:hover img{
+    transform: scale(1.1);
+}
+
+@media(max-width:768px){
+    .cosmetic{
+        grid-template-columns: 1fr;
+    }
+}

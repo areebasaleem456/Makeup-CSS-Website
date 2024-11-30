@@ -1,0 +1,24 @@
+.about{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.about-content{
+    max-width: 400px;
+    text-align: justify;
+    background-color:grey ;
+    padding: 30px;
+    border-radius: 10px;
+}
+.about-content h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.about-content p{
+    padding-top: 20px;
+    font-style: italic;
+}
